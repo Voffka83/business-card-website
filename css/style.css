@@ -1,0 +1,148 @@
+.header {
+  border: 0.5px solid red;
+}
+
+.container-header {
+  height: 100vh;
+  background-image: url(../../media/foto/complekt.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  opacity: 0.8;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: inline-block;
+}
+
+.header__foto-img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header__nav-container {
+  border: 0.5px solid red;
+  margin: 5px 10px;
+}
+
+.header__ul-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__ul-container > li {
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 0.5px solid red;
+  margin-top: 5px;
+}
+
+.main {
+  border: 0.5px solid red;
+  margin-top: 5px;
+}
+
+.container-main {
+  background-image: url(../../media/foto/bike.JPG);
+  opacity: 0.8;
+  display: inline-block;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  opacity: 0.8;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: inline-block;
+}
+
+.main__body {
+  color: #u;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  margin-top: 5px;
+  border: 1px solid red;
+}
+
+.container-content {
+  background-color: cadetblue;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  margin-top: 5px;
+  border: 1px solid red;
+}
+
+.container-footer {
+  background-color: cyan;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+body {
+  background-color: #efefef;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.wrapper {
+  background-size: cover;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 10px;
+}
+
+.p {
+  margin-top: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

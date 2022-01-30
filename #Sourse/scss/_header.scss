@@ -1,0 +1,55 @@
+
+.header {	
+		border: 0.5px solid red;
+
+
+}
+
+.container-header{
+	height: 100vh;
+	background-image: url(../../media/foto/complekt.JPG);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin: 0 auto;
+	opacity: 0.8;
+	justify-content: center;
+	display: inline-block;
+
+}
+
+
+.header__foto-img{
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+}
+
+
+
+.header__nav{
+	display: flex;
+	flex-direction: column;
+}
+
+.header__nav-container{
+	border: 0.5px solid red;	
+	margin: 5px 10px;
+
+}
+
+
+.header__ul-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	
+}
+.header__ul-container > li {
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 0.5px solid red;	
+	margin-top: 5px;
+
+}

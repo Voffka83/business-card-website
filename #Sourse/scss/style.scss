@@ -1,0 +1,49 @@
+@import "header";
+@import "main";
+@import "content";
+@import "footer";
+
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+
+body{
+	background-color: #efefef; 
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	max-width: 1200px;
+	margin: 0px auto;
+
+}
+
+
+.wrapper{ 
+	// display: flex;
+	// overflow: hidden;
+	// min-height: 100%;
+	// flex-direction: column;
+   // max-width: 100%;
+	// position: relative;
+		background-size: cover;
+
+}
+.container{
+	display: flex;
+	margin: 0 10px;
+}
+
+.p{
+	margin-top: 25px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+
